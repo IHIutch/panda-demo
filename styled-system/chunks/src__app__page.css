@@ -1,0 +1,9 @@
+@layer utilities {
+  .fs_2xl {
+    font-size: var(--font-sizes-2xl)
+    }
+
+  .font_bold {
+    font-weight: var(--font-weights-bold)
+    }
+}

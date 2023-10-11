@@ -1,0 +1,166 @@
+@layer utilities {
+  .d_inline-flex {
+    display: inline-flex
+    }
+
+  .items_center {
+    align-items: center
+    }
+
+  .justify_center {
+    justify-content: center
+    }
+
+  .font_semibold {
+    font-weight: var(--font-weights-semibold)
+    }
+
+  .ring_none {
+    outline: var(--borders-none)
+    }
+
+  .transition_colors {
+    transition-property: var(--transition-prop, color, background-color, border-color, outline-color, text-decoration-color, fill, stroke);
+    transition-timing-function: var(--transition-easing, cubic-bezier(0.4, 0, 0.2, 1));
+    transition-duration: var(--transition-duration, 150ms)
+    }
+
+  .cursor_pointer {
+    cursor: pointer
+    }
+    .focus\:ring_2:is(:focus, [data-focus]) {
+      outline-width: 2
+        }
+    .focus\:ring_2:is(:focus, [data-focus]) {
+      outline-offset: var(--spacing-2)
+        }
+    .focus\:ring_blue\.600:is(:focus, [data-focus]) {
+      outline-color: var(--colors-blue-600)
+        }
+    .disabled\:pointer-events_none:is(:disabled, [disabled], [data-disabled]) {
+      pointer-events: none
+        }
+    .disabled\:opacity_0\.4:is(:disabled, [disabled], [data-disabled]) {
+      opacity: 0.4
+        }
+
+  .bg_slate\.900 {
+    background: var(--colors-slate-900)
+    }
+    .hover\:bg_slate\.700:is(:hover, [data-hover]) {
+      background: var(--colors-slate-700)
+        }
+
+  .bg_red\.500 {
+    background: var(--colors-red-500)
+    }
+
+  .text_white {
+    color: var(--colors-white)
+    }
+    .hover\:bg_red\.600:is(:hover, [data-hover]) {
+      background: var(--colors-red-600)
+        }
+
+  .border-width_1px {
+    border-width: 1px
+    }
+
+  .border_slate\.200 {
+    border-color: var(--colors-slate-200)
+    }
+    .hover\:bg_slate\.100:is(:hover, [data-hover]) {
+      background: var(--colors-slate-100)
+        }
+    .focus\:bg_slate\.100:is(:focus, [data-focus]) {
+      background: var(--colors-slate-100)
+        }
+
+  .bg_transparent {
+    background: var(--colors-transparent)
+    }
+
+  .text_slate\.900 {
+    color: var(--colors-slate-900)
+    }
+
+  .underline-offset_4 {
+    text-underline-offset: 4
+    }
+    .hover\:bg_transparent:is(:hover, [data-hover]) {
+      background: var(--colors-transparent)
+        }
+    .hover\:text-decor_underline:is(:hover, [data-hover]) {
+      text-decoration: underline
+        }
+    .focus\:bg_transparent:is(:focus, [data-focus]) {
+      background: var(--colors-transparent)
+        }
+    .focus\:text-decor_underline:is(:focus, [data-focus]) {
+      text-decoration: underline
+        }
+
+  .h_6 {
+    height: var(--sizes-6)
+    }
+
+  .px_2 {
+    padding-inline: var(--spacing-2)
+    }
+
+  .fs_xs {
+    font-size: var(--font-sizes-xs)
+    }
+
+  .rounded_xs {
+    border-radius: var(--radii-xs)
+    }
+
+  .h_8 {
+    height: var(--sizes-8)
+    }
+
+  .px_3 {
+    padding-inline: var(--spacing-3)
+    }
+
+  .fs_sm {
+    font-size: var(--font-sizes-sm)
+    }
+
+  .rounded_sm {
+    border-radius: var(--radii-sm)
+    }
+
+  .h_10 {
+    height: var(--sizes-10)
+    }
+
+  .px_4 {
+    padding-inline: var(--spacing-4)
+    }
+
+  .fs_md {
+    font-size: var(--font-sizes-md)
+    }
+
+  .rounded_md {
+    border-radius: var(--radii-md)
+    }
+
+  .h_12 {
+    height: var(--sizes-12)
+    }
+
+  .px_6 {
+    padding-inline: var(--spacing-6)
+    }
+
+  .fs_lg {
+    font-size: var(--font-sizes-lg)
+    }
+
+  .rounded_lg {
+    border-radius: var(--radii-lg)
+    }
+}

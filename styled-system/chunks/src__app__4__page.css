@@ -1,0 +1,69 @@
+@layer utilities {
+  .p_12 {
+    padding: var(--spacing-12)
+    }
+
+  .fs_2xl {
+    font-size: var(--font-sizes-2xl)
+    }
+
+  .font_bold {
+    font-weight: var(--font-weights-bold)
+    }
+
+  .fs_xl {
+    font-size: var(--font-sizes-xl)
+    }
+
+  .font_medium {
+    font-weight: var(--font-weights-medium)
+    }
+
+  .mb_4 {
+    margin-bottom: var(--spacing-4)
+    }
+
+  .gap_12 {
+    gap: var(--spacing-12)
+    }
+
+  .flex_column {
+    flex-direction: column
+    }
+
+  .gap_1rem {
+    gap: 1rem
+    }
+
+  .flex_row {
+    flex-direction: row
+    }
+
+  .d_flex {
+    display: flex
+    }
+
+  .items_center {
+    align-items: center
+    }
+
+  .justify_center {
+    justify-content: center
+    }
+
+  .flex_0_0_auto {
+    flex: 0 0 auto
+    }
+
+  .w_12 {
+    width: var(--sizes-12)
+    }
+
+  .h_12 {
+    height: var(--sizes-12)
+    }
+
+  .bg_blue\.200 {
+    background: var(--colors-blue-200)
+    }
+}

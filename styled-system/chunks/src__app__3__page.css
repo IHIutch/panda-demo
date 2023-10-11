@@ -1,0 +1,154 @@
+@layer utilities {
+
+  .fs_2xl {
+    font-size: var(--font-sizes-2xl)
+    }
+
+  .font_bold {
+    font-weight: var(--font-weights-bold)
+    }
+
+  .mb_12 {
+    margin-bottom: var(--spacing-12)
+    }
+
+  .p_12 {
+    padding: var(--spacing-12)
+    }
+
+  .fs_xl {
+    font-size: var(--font-sizes-xl)
+    }
+
+  .font_medium {
+    font-weight: var(--font-weights-medium)
+    }
+
+  .mb_4 {
+    margin-bottom: var(--spacing-4)
+    }
+
+  .pos_relative {
+    position: relative
+    }
+
+  .max-w_8xl {
+    max-width: var(--sizes-8xl)
+    }
+
+  .mx_auto {
+    margin-inline: auto
+    }
+
+  .px_4 {
+    padding-inline: var(--spacing-4)
+    }
+
+  .bg_red\.200 {
+    background: var(--colors-red-200)
+    }
+
+  .gap_20 {
+    gap: var(--spacing-20)
+    }
+
+  .w_full {
+    width: var(--sizes-full)
+    }
+
+  .flex_column {
+    flex-direction: column
+    }
+
+  .flex-wrap_wrap {
+    flex-wrap: wrap
+    }
+
+  .w_12 {
+    width: var(--sizes-12)
+    }
+
+  .h_12 {
+    height: var(--sizes-12)
+    }
+
+  .gap_4 {
+    gap: var(--spacing-4)
+    }
+
+  .flex_row {
+    flex-direction: row
+    }
+
+  .d_grid {
+    display: grid
+    }
+
+  .grid-cols_repeat\(4\,_minmax\(0\,_1fr\)\) {
+    grid-template-columns: repeat(4, minmax(0, 1fr))
+    }
+
+  .gap_6 {
+    gap: var(--spacing-6)
+    }
+
+  .w_96 {
+    width: var(--sizes-96)
+    }
+
+  .col-span_span_2 {
+    grid-column: span 2
+    }
+
+  .flex_0_0_auto {
+    flex: 0 0 auto
+    }
+
+  .w_24 {
+    width: var(--sizes-24)
+    }
+
+  .h_24 {
+    height: var(--sizes-24)
+    }
+
+  .rounded_9999px {
+    border-radius: 9999px
+    }
+
+  .d_flex {
+    display: flex
+    }
+
+  .items_center {
+    align-items: center
+    }
+
+  .justify_center {
+    justify-content: center
+    }
+
+  .w_20 {
+    width: var(--sizes-20)
+    }
+
+  .h_64 {
+    height: var(--sizes-64)
+    }
+
+  .bg_blue\.200 {
+    background: var(--colors-blue-200)
+    }
+    @media screen and (min-width: 48em) {
+
+  .md\:px_6 {
+      padding-inline: var(--spacing-6)
+    }
+        }
+    @media screen and (min-width: 64em) {
+
+  .lg\:px_8 {
+      padding-inline: var(--spacing-8)
+    }
+        }
+}
